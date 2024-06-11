@@ -17,3 +17,7 @@
 ## Wheels
 
 - Printing TPU and PLA: https://www.youtube.com/watch?v=oUXeIEUS68I
+
+## Pinion
+
+- Absima Alu Pinion 32dp/Module 0.8 - 20T (2310348)
