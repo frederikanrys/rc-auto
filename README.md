@@ -21,3 +21,13 @@
 ## Pinion
 
 - Absima Alu Pinion 32dp/Module 0.8 - 20T (2310348)
+
+## Gears
+
+- Create layout with [inkscape]() -> Extensions -> Render -> Gear -> Gear
+	- 48 teeth, circular pitch 2.5mm, pressure angle 20, center diameter 5mm
+		- Diameter of 40mm
+	- 54 teeth, circular pitch 2.5mm, pressure angle 20, center diameter 5mm
+		- Diameter of 45mm
+	- 60 teeth, circular pitch 2.5mm, pressure angle 20, center diameter 5mm
+		- Diameter of 50mm
