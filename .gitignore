@@ -42,4 +42,4 @@ yarn.lock
 !app/**/ngjs/**/*.js
 !app/**/ngjs/**/*.js.map
 .java-version
-.3mf
+*.3mf
