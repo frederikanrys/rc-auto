@@ -30,9 +30,9 @@
 ## printed parts
 | Check                                        | Description                                                    | Material       | # | Geert | Fre | Comment                                                       |
 |----------------------------------------------|----------------------------------------------------------------|----------------|---| ----- |-----|---------------------------------------------------------------|
-| <span style="color: green;">&#10004;</span>  | Receiver box                                                   | PLA            | 1 |       |     | will use OOTB                                                 |
+| <span style="color: green;">&#10004;</span>  | Receiver box                                                   | PLA            | 1 |       | 5   | will use OOTB                                                 |
 |                                              | Battery box - top                                              | PLA            | 1 |       |     | Requires design                                               |
-| <span style="color: green;">&#10004;</span>  | Servo - steering rod                                           | PLA            | 1 |       |     | will use OOTB                                                 |
+| <span style="color: green;">&#10004;</span>  | Servo - steering rod                                           | PLA            | 1 |       | 5   | will use OOTB                                                 |
 |                                              |                                                                |                |   |       |     |                                                               |
 | <span style="color: green;">&#10004;</span>  | [Wheel - tire](stl/wheel-tire.stl)                             | TPU-A95        | 4 | 12+4  | 8   | Last set of 4 are from test vehicle                           |
 | <span style="color: green;">&#10004;</span>  | [Wheel - rim](stl/wheel-rim.stl)                               | PLA            | 4 | 12+4  | 8   | Last set of 4 are from test vehicle                           |
@@ -55,7 +55,7 @@
 | <span style="color: green;">&#10004;</span>  | [Steer - top](stl/steering-top.stl)                            | PLA            | 1 | 6     | 6   |                                                               |
 | <span style="color: green;">&#10004;</span>  | [Steer - rod - 67mm](stl/steering-arm-67mm.stl)                | PLA or TPU-A95 | 2 | 10    | 12  | TPU acts as servo saver                                       |
 | <span style="color: green;">&#10004;</span>  | [Driveshaft - bearing](stl/driveshaft-bearing-28x12.5x8.stl)   | PLA            | 1 |       | 6   |                                                               |
-|                                              | [Driveshaft - gear 48T](stl/driveshaft-gear-48T.stl)           | PLA            | 1 |       |     |                                                               |
+|                                              | [Driveshaft - gear 48T](stl/driveshaft-gear-48T.stl)           | PLA            | 1 |       |     | Will use 60T                                                  |
 | <span style="color: green;">&#10004;</span>  | [Driveshaft - gear 60T](stl/driveshaft-gear-60T.stl)           | PLA            | 1 |       | 6   |                                                               |
 | <span style="color: green;">&#10004;</span>  | [Driveshaft - axle](stl/driveshaft.stl)                        | PLA or ABS     | 1 |       | 6   |                                                               |
 | <span style="color: green;">&#10004;</span>  | [Bumper](stl/bumper.stl)                                       | TPU-A95        | 1 |       | 6   | use TPU to absorb impact                                      |
