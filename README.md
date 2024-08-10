@@ -28,38 +28,42 @@
 
 
 ## printed parts
-| Check                                         | Description                                                  | Material       | # | Geert | Fre | Comment                                                       |
-|-----------------------------------------------|--------------------------------------------------------------|----------------|---| ----- |-----|---------------------------------------------------------------|
-|                                               | Receiver box                                                 | PLA            | 1 |       |     | Requires design                                               |
-|                                               | Battery box - top                                            | PLA            | 1 |       |     | Requires design                                               |
-|                                               | Servo - steering rod                                         | PLA            | 1 |       |     | Requires design                                               |
-|                                               |                                                              |                |   |       |     |                                                               |
-| <span style="color: green;">&#10004;</span>   | [Wheel - tire](stl/wheel-tire.stl)                           | TPU-A95        | 4 | 12+4  | 8   | Last set of 4 are from test vehicle                           |
-| <span style="color: green;">&#10004;</span>   | [Wheel - rim](stl/wheel-rim.stl)                             | PLA            | 4 | 12+4  | 8   | Last set of 4 are from test vehicle                           |
-|                                               | [Wheel - hex](stl/wheel-hex.stl)                             | PLA            | 4 |       |     |                                                               |
-| <span style="color: green;">&#10004;</span>   | [Plate - center](stl/plate-center.stl)                       | PLA            | 1 | 2+3   |     | 3 cannot handle long M4 x 100mm, 2 have a minor defect on top |
-| <span style="color: green;">&#10004;</span>   | [Plate - front](stl/plate-bottom-front.stl)                  | PLA            | 1 | 6     |     |                                                               |
-| <span style="color: green;">&#10004;</span>   | [Plate - rear](stl/plate-bottom-rear.stl)                    | PLA            | 1 | 6     |     |                                                               |
-| <span style="color: green;">&#10004;</span>   | [Plate - Diff - top](stl/plate-diff-top.stl)                 | PLA            | 2 | 12    |     |                                                               |
-| <span style="color: green;">&#10004;</span>   | [Wing - bottom](stl/wing-bottom.stl)                         | PLA or TPU-A98 | 4 | 24    | 8   | use TPU to absorb impact                                      |
-| <span style="color: green;">&#10004;</span>   | [Wing - top](stl/wing-top.stl)                               | PLA or TPU-A98 | 4 | 24    | 8   | use TPU to absorb impact                                      |
-|                                               | Caster - claw                                                | TPU-A98        | 4 |       |     | use TPU to absorb impact                                      |
-|                                               | Caster - turning                                             | PLA            | 2 | 12    |     |                                                               |
-|                                               | Caster - fixed                                               | PLA            | 2 | 15    |     |                                                               |
-| <span style="color: green;">&#10004;</span>   | [Shock - slider](stl/Shock.stl)                              | PLA            | 8 | 56    |     |                                                               |
-| <span style="color: green;">&#10004;</span>   | [Shock - cap](stl/Shock.stl)                                 | PLA            | 8 | 56    |     |                                                               |
-|                                               | [Steer - turn-left](stl/steering-left.stl)                   | PLA            | 1 | 6     |     |                                                               |
-|                                               | [Steer - turn-right](stl/steering-right.stl)                 | PLA            | 1 | 6     |     |                                                               |
-|                                               | [Steer - connector](stl/steering-connect.stl)                | PLA or TPU-A95 | 1 | 6     |     | TPU acts as servo saver                                       |
-|                                               | [Steer - rings](stl/steering-rings.stl)                      | PLA            | 2 |       |     |                                                               |
-|                                               | [Steer - top](stl/steering-top.stl)                          | PLA            | 1 | 6     |     |                                                               |
-| <span style="color: green;">&#10004;</span>   | [Steer - rod - 67mm](stl/steering-arm-67mm.stl)              | PLA or TPU-A95 | 2 | 10    | 12  | TPU acts as servo saver                                       |
-| <span style="color: green;">&#10004;</span>   | [Driveshaft - bearing](stl/driveshaft-bearing-28x12.5x8.stl) | PLA            | 1 |       | 6   |                                                               |
-|                                               | [Driveshaft - gear 48T](stl/driveshaft-gear-48T.stl)         | PLA            | 1 |       |     |                                                               |
-|                                               | [Driveshaft - gear 60T](stl/driveshaft-gear-60T.stl)         | PLA            | 1 |       |     |                                                               |
-| <span style="color: green;">&#10004;</span>   | [Driveshaft - axle](stl/driveshaft.stl)                      | PLA            | 1 |       | 6   |                                                               |
-| <span style="color: green;">&#10004;</span>   | [Bumper](stl/bumper.stl)                                     | TPU-A95        | 1 |       | 6   | use TPU to absorb impact                                      |
-|                                               | Cybertruck                                                   |                |   |       |     |                                                               |
+| Check                                        | Description                                                    | Material       | # | Geert | Fre | Comment                                                       |
+|----------------------------------------------|----------------------------------------------------------------|----------------|---| ----- |-----|---------------------------------------------------------------|
+| <span style="color: green;">&#10004;</span>  | Receiver box                                                   | PLA            | 1 |       |     | will use OOTB                                                 |
+|                                              | Battery box - top                                              | PLA            | 1 |       |     | Requires design                                               |
+| <span style="color: green;">&#10004;</span>  | Servo - steering rod                                           | PLA            | 1 |       |     | will use OOTB                                                 |
+|                                              |                                                                |                |   |       |     |                                                               |
+| <span style="color: green;">&#10004;</span>  | [Wheel - tire](stl/wheel-tire.stl)                             | TPU-A95        | 4 | 12+4  | 8   | Last set of 4 are from test vehicle                           |
+| <span style="color: green;">&#10004;</span>  | [Wheel - rim](stl/wheel-rim.stl)                               | PLA            | 4 | 12+4  | 8   | Last set of 4 are from test vehicle                           |
+|                                              | [Wheel - hex](stl/wheel-hex.stl)                               | PLA            | 4 |       | 30  | Still need to make 2mmx1cm hex pins                           |
+| <span style="color: green;">&#10004;</span>  | [Plate - center](stl/plate-center.stl)                         | PLA            | 1 | 2+3   | 1   | 3 cannot handle long M4 x 100mm, 2 have a minor defect on top |
+| <span style="color: green;">&#10004;</span>  | [Plate - front](stl/plate-bottom-front.stl)                    | PLA            | 1 | 6     | 1   |                                                               |
+| <span style="color: green;">&#10004;</span>  | [Plate - rear](stl/plate-bottom-rear.stl)                      | PLA            | 1 | 6     | 1   |                                                               |
+| <span style="color: green;">&#10004;</span>  | [Plate - Diff - top](stl/plate-diff-top.stl)                   | PLA            | 2 | 12    | 2   |                                                               |
+| <span style="color: green;">&#10004;</span>  | [Wing - bottom](stl/wing-bottom.stl)                           | PLA or TPU-A98 | 4 | 24    | 8   | use TPU to absorb impact                                      |
+| <span style="color: green;">&#10004;</span>  | [Wing - top](stl/wing-top.stl)                                 | PLA or TPU-A98 | 4 | 24    | 8   | use TPU to absorb impact                                      |
+|                                              | Caster - claw                                                  | TPU-A98        | 4 |       | 4   | use TPU to absorb impact                                      |
+|                                              | Caster - turning                                               | PLA            | 2 | 12    | 2   |                                                               |
+|                                              | Caster - fixed                                                 | PLA            | 2 | 15    | 2   |                                                               |
+| <span style="color: green;">&#10004;</span>  | [Shock - slider](stl/Shock.stl)                                | PLA            | 8 | 56    | 8   |                                                               |
+| <span style="color: green;">&#10004;</span>  | [Shock - cap](stl/Shock.stl)                                   | PLA            | 8 | 56    | 8   |                                                               |
+| <span style="color: green;">&#10004;</span>  | [Steer - turn-left](stl/steering-left.stl)                     | PLA            | 1 | 6     | 6   |                                                               |
+| <span style="color: green;">&#10004;</span>  | [Steer - turn-right](stl/steering-right.stl)                   | PLA            | 1 | 6     | 6   |                                                               |
+| <span style="color: green;">&#10004;</span>  | [Steer - connector](stl/steering-connect.stl)                  | PLA or TPU-A95 | 1 | 6     | 6   | TPU acts as servo saver                                       |
+| <span style="color: green;">&#10004;</span>  | [Steer - rings](stl/steering-rings.stl)                        | PLA            | 2 |       | 12  |                                                               |
+| <span style="color: green;">&#10004;</span>  | [Steer - top](stl/steering-top.stl)                            | PLA            | 1 | 6     | 6   |                                                               |
+| <span style="color: green;">&#10004;</span>  | [Steer - rod - 67mm](stl/steering-arm-67mm.stl)                | PLA or TPU-A95 | 2 | 10    | 12  | TPU acts as servo saver                                       |
+| <span style="color: green;">&#10004;</span>  | [Driveshaft - bearing](stl/driveshaft-bearing-28x12.5x8.stl)   | PLA            | 1 |       | 6   |                                                               |
+|                                              | [Driveshaft - gear 48T](stl/driveshaft-gear-48T.stl)           | PLA            | 1 |       |     |                                                               |
+| <span style="color: green;">&#10004;</span>  | [Driveshaft - gear 60T](stl/driveshaft-gear-60T.stl)           | PLA            | 1 |       | 6   |                                                               |
+| <span style="color: green;">&#10004;</span>  | [Driveshaft - axle](stl/driveshaft.stl)                        | PLA or ABS     | 1 |       | 6   |                                                               |
+| <span style="color: green;">&#10004;</span>  | [Bumper](stl/bumper.stl)                                       | TPU-A95        | 1 |       | 6   | use TPU to absorb impact                                      |
+|                                              | [Cybertruck - front](stl/Cybertruck-front.stl)                 | PLA            | 1 |       | 4   |                                                               |
+|                                              | [Cybertruck - front - holder](stl/Cybertruck-front-holder.stl) | PLA            | 1 |       | 4   |                                                               |
+|                                              | [Cybertruck - rear](stl/Cybertruck-rear.stl)                   | PLA            | 1 |       | 4   |                                                               |
+|                                              | [Cybertruck - rear - holder](stl/Cybertruck-rear-holder.stl)   | PLA            | 1 |       | 4   |                                                               |
+| <span style="color: green;">&#10004;</span>  | [Cybertruck - decal](stl/Cybertruck-decal.stl)                 | PLA            | 1 |       | 5   |                                                               |
 
 
 ## Screw count
