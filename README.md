@@ -43,7 +43,7 @@
 | <span style="color: green;">&#10004;</span>   | [Plate - Diff - top](stl/plate-diff-top.stl)                   | PLA            | 2 | 12    | 2   |                                                               |
 | <span style="color: green;">&#10004;</span>   | [Wing - bottom](stl/wing-bottom.stl)                           | PLA or TPU-A98 | 4 | 24    | 8   | use TPU to absorb impact                                      |
 | <span style="color: green;">&#10004;</span>   | [Wing - top](stl/wing-top.stl)                                 | PLA or TPU-A98 | 4 | 24    | 8   | use TPU to absorb impact                                      |
-|                                               | Caster - claw                                                  | TPU-A98        | 4 |       | 4   | use TPU to absorb impact                                      |
+|                                               | Caster - claw                                                  | TPU-A98        | 4 | 24+20 | 4   | use TPU to absorb impact                                      |
 |                                               | Caster - turning                                               | PLA            | 2 | 12    | 2   |                                                               |
 |                                               | Caster - fixed                                                 | PLA            | 2 | 15    | 2   |                                                               |
 | <span style="color: green;">&#10004;</span>   | [Shock - slider](stl/Shock.stl)                                | PLA            | 8 | 56    | 8   |                                                               |
