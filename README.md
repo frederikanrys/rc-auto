@@ -1,8 +1,13 @@
 # rc-auto
+This is a project to build a 3D printed remote controlled car. The car body is based on the [Cybertruck](https://www.tesla.com/cybertruck) from Tesla. The car is designed to be 3D printed and to be controlled by a remote control.
+
+![Cybertruck](images/Cybertruck-back.jpeg)
 
 
 # Bill of Material
-## Extra parts
+There is a combination of printed parts and off the shelf parts. The off the shelf parts are listed in the table below. The printed parts are listed in the table below that.
+
+## Off the shalf parts
 | Check                                        | Description                          | # | Geert | Fre | Comment                        | Link                                                                                                                            |
 |----------------------------------------------|--------------------------------------|---|-------|-----|--------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 |                                              | Motor + ESC                          | 1 | 1 + 3 |     | Test Pulsar B-20, B-40         | [aliexpress.com](https://nl.aliexpress.com/item/1005006742987156.html)                                                          |
@@ -26,7 +31,6 @@
 | <span style="color: green;">&#10004;</span>  | Rubber band                          | 4 | Y     | Y   | Shock                          |                                                                                                                                 |
 
 
-
 ## printed parts
 | Check                                         | Description                                                    | Material       | # | Geert | Fre | Comment                                                       |
 |-----------------------------------------------|----------------------------------------------------------------|----------------|---| ----- |-----|---------------------------------------------------------------|
@@ -43,9 +47,9 @@
 | <span style="color: green;">&#10004;</span>   | [Plate - Diff - top](stl/plate-diff-top.stl)                   | PLA            | 2 | 12    | 2   |                                                               |
 | <span style="color: green;">&#10004;</span>   | [Wing - bottom](stl/wing-bottom.stl)                           | PLA or TPU-A98 | 4 | 24    | 8   | use TPU to absorb impact                                      |
 | <span style="color: green;">&#10004;</span>   | [Wing - top](stl/wing-top.stl)                                 | PLA or TPU-A98 | 4 | 24    | 8   | use TPU to absorb impact                                      |
-|                                               | Caster - claw                                                  | TPU-A98        | 4 |       | 4   | use TPU to absorb impact                                      |
-|                                               | Caster - turning                                               | PLA            | 2 | 12    | 2   |                                                               |
-|                                               | Caster - fixed                                                 | PLA            | 2 | 15    | 2   |                                                               |
+|                                               | [Caster - claw](stl/turn-caster)                               | TPU-A98        | 4 |       | 4   | use TPU to absorb impact                                      |
+|                                               | [Caster - turning](stl/turn-front)                             | PLA            | 2 | 12    | 2   |                                                               |
+|                                               | [Caster - fixed](stl/turn-rear)                                | PLA            | 2 | 15    | 2   |                                                               |
 | <span style="color: green;">&#10004;</span>   | [Shock - slider](stl/Shock.stl)                                | PLA            | 8 | 56    | 8   |                                                               |
 | <span style="color: green;">&#10004;</span>   | [Shock - cap](stl/Shock.stl)                                   | PLA            | 8 | 56    | 8   |                                                               |
 | <span style="color: green;">&#10004;</span>   | [Steer - turn-left](stl/steering-left.stl)                     | PLA            | 1 | 6     | 6   |                                                               |
@@ -65,25 +69,4 @@
 | <span style="color: green;">&#10004;</span>   | [Cybertruck - rear - holder](stl/Cybertruck-rear-holder.stl)   | PLA            | 1 |       | 5   |                                                               |
 | <span style="color: green;">&#10004;</span>   | [Cybertruck - decal](stl/Cybertruck-decal.stl)                 | PLA            | 1 |       | 5   |                                                               |
 | <span style="color: green;">&#10004;</span>   | [Cybertruck - decal](stl/Cybertruck-logo.stl)                  | PLA            | 1 |       | 5   |                                                               |
-
-
-## Screw count
-
-| Check                                       | Description      | Material    | # | Geert | Fre | Comment                        | Link                                                                                                                  |
-|---------------------------------------------|------------------|-------------|---|-------|-----|--------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-|                                             |                  | M3 x 12mm   | 2 |       |     | Driveshaft gear                |                                                                                                                       |
-|                                             | M3 x 16mm        | M3 x 16mm   | 8 |       |     | Diff cover                     |                                                                                                                       |
-|                                             |                  |             | 8 |       |     | Claw - knuckle connection      |                                                                                                                       |
-|                                             | M3 x 20mm        | M3 x 20mm   | 4 |       |     | Steering rod connection        |                                                                                                                       |
-|                                             |                  |             | 1 |       |     | Steering - servo connection    |                                                                                                                       |
-|                                             | M3 x 30mm        | M3 x 30mm   | 4 |       |     | Top wing - diff connection     |                                                                                                                       |
-|                                             |                  |             | 8 |       |     | Wing - claw connection         |                                                                                                                       |
-|                                             |                  |             | 8 |       |     | Shock connection               |                                                                                                                       | 
-|                                             |                  | A2 steel    | 2 |       |     | Steering bridge bolt           |                                                                                                                       |
-|                                             |                  | A2 steel    | 2 |       |     | Steering top bolt              |                                                                                                                       |
-|                                             | Tapered          | A2 steel    | 2 |       |     | Steering plate bolt            |                                                                                                                       |
-|                                             | Tapered          | A2 steel    | 3 |       |     | Motor mount - plate            |                                                                                                                       |
-|                                             |                  | A2 steel    | 6 |       |     | Motor mount - motor            |                                                                                                                       |
-|                                             |                  | A2 steel    | 2 |       |     | Axle - diff                    |                                                                                                                       |
-                                                                                                                                                                                                       |
 
