@@ -6,8 +6,11 @@ This is a project to build a 3D printed remote controlled car. The car body is b
 
 # How to start?
 There is a combination of printed parts and off the shelf parts. Both off the shelf parts and printed parts are listed in the [Bill of Material](#Bill-of-Material). Off the shelf parts can be bought from various online stores such as the one proposed in the Link column.
-The printed parts are available in the [stl](stl) directory. The origianl design files are available in the [shapr](shapr) directory.
+The printed parts are available in the [stl](stl) directory. The original design files are available in the [shapr](shapr) directory.
 The printed parts are designed to be printed with a 0.4mm nozzle and a layer height of 0.2mm on a printer with a maximum size of 25cm x 25cm x 25cm. The parts are designed to be printed with PLA, but some parts are designed to be printed with TPU (to absorb impact).
+
+The car is designed with durability in mind. You will notice we use metal differentials and metal dog bones to transfer the power from the motor to the wheels. It makes the car more expensive, but it will last longer. 
+For more durability, some parts need to be printed in TPU (flexible filament). The bumper, the caster claws, and the top and bottom of the wings are designed to absorb the impact of a crash if printed in flexible filament.
 
 # Assembly
 Once you have the printed the parts on your printer and bought some off the shelf parts, you can start to assemble the car as described in the following documents:
