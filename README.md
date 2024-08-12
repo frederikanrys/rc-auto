@@ -4,31 +4,40 @@ This is a project to build a 3D printed remote controlled car. The car body is b
 ![Cybertruck](images/Cybertruck-back.jpeg)
 
 
-# Bill of Material
-There is a combination of printed parts and off the shelf parts. The off the shelf parts are listed in the table below. The printed parts are listed in the table below that.
+# How to start?
+There is a combination of printed parts and off the shelf parts. Both off the shelf parts and printed parts are listed in the [Bill of Material](#Bill-of-Material). Off the shelf parts can be bought from various online stores such as the one proposed in the Link column.
+The printed parts are available in the [stl](stl) directory. The origianl design files are available in the [shapr](shapr) directory.
+The printed parts are designed to be printed with a 0.4mm nozzle and a layer height of 0.2mm on a printer with a maximum size of 25cm x 25cm x 25cm. The parts are designed to be printed with PLA, but some parts are designed to be printed with TPU (to absorb impact).
 
-## Off the shalf parts
-| Check                                        | Description                          | # | Geert | Fre | Comment                        | Link                                                                                                                            |
-|----------------------------------------------|--------------------------------------|---|-------|-----|--------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-|                                              | Motor + ESC                          | 1 | 1 + 3 |     | Test Pulsar B-20, B-40         | [aliexpress.com](https://nl.aliexpress.com/item/1005006742987156.html)                                                          |
-| <span style="color: green;">&#10004;</span>  | Motor Mount                          | 1 |       | 6   |                                | [conrad.be](https://www.conrad.be/nl/p/reely-536014c-reserveonderdeel-motorhouder-1418556.html)                                 |
-| <span style="color: green;">&#10004;</span>  | Pinion                               | 1 | 5+5+7 |     | 12T, 15T, 20T                  | [absima.be](https://www.absima.shop/pp/alu-pinion-32dp/module0-8-20T.html)                                                      |
-| <span style="color: green;">&#10004;</span>  | Battery                              | 1 | 4     | 6   | 5200mAh, 2S, 80C               | [amazon.de](https://www.amazon.de/-/en/dp/B08X4GF9DK?psc=1&ref=ppx_yo2ov_dt_b_product_details)                                  |
-|                                              | Servo                                | 1 | 3     |     |                                | [aliexpress.com](https://nl.aliexpress.com/item/1005007301836255.html)                                                          |
-|                                              | Receiver + Transmitter               | 1 | 3     |     |                                | [conrad.be](https://www.conrad.be/nl/p/reely-gen4-rc-pistoolzender-2-4-ghz-aantal-kanalen-4-incl-ontvanger-2267650.html)        |
-| <span style="color: green;">&#10004;</span>  | Differential                         | 2 |       | 12  |                                | [conrad.be](https://www.conrad.be/nl/p/reely-10003-reserveonderdeel-differentieel-712524.html)                                  |
-| <span style="color: green;">&#10004;</span>  | Differential - Drive shaft Connector | 2 |       | 12  |                                | [conrad.be](https://www.conrad.be/nl/p/reely-536026-reserveonderdeel-conische-tandwielen-met-differentieeluitgang-1301672.html) |
-| <span style="color: green;">&#10004;</span>  | Dog bone                             | 4 | 8     | 12  | needs thread lock!             | [amazon.de](https://www.amazon.de/-/en/dp/B08FMJXFCH?psc=1&ref=ppx_yo2ov_dt_b_product_details)                                  |
-| <span style="color: green;">&#10004;</span>  | Bearing - 10X15X4                    | 8 |       | 40  |                                | [aliexpress.com](https://nl.aliexpress.com/item/32904604356.html)                                                               |
-| <span style="color: green;">&#10004;</span>  | Bearing - 5X10X4                     | 8 |       | 40  |                                | [aliexpress.com](https://nl.aliexpress.com/item/32905646461.html)                                                               |
-| <span style="color: green;">&#10004;</span>  | Hot glue                             |   | Y     | Y   |                                |                                                                                                                                 |
-| <span style="color: green;">&#10004;</span>  | CA glue                              |   | Y     | Y   |                                |                                                                                                                                 |
-| <span style="color: green;">&#10004;</span>  | Duct tape                            |   | Y     | Y   |                                |                                                                                                                                 |
-| <span style="color: green;">&#10004;</span>  | Screws M3                            | 1 | 3     | 3   | 440 pieces                     | [Amazon.de](https://www.amazon.de/-/nl/dp/B0B3MGZ7T2/ref=pd_day0fbt_thbs_d_sccl_2/257-0877788-9470555)                          |
-| <span style="color: green;">&#10004;</span>  | Screws M4 (100mm or 70mm)            | 4 |       | 20  | Bottom wing - plate connection |                                                                                                                                 |
-|                                              | Wheel Fastener                       | 4 |       | 16  |                                | [aliexpress.nl](https://nl.aliexpress.com/item/32947782005.html)                                                                |
-| <span style="color: green;">&#10004;</span>  | Threaded inserts                     | 8 | Y     | Y   | Diff cover                     | [ruthex.de](https://www.ruthex.de/en/collections/gewindeeinsatze/m3)                                                            |
-| <span style="color: green;">&#10004;</span>  | Rubber band                          | 4 | Y     | Y   | Shock                          |                                                                                                                                 |
+# Assembly
+Once you have the printed the parts on your printer and bought some off the shelf parts, you can start to assemble the car as described in the following documents:
+1. [Assembly - Part 1](assembly/Assembly-Part-1.pdf)
+2. [Assembly - Part 2](assembly/Assembly-Part-2.pdf)
+3. [Assembly - Part 3](assembly/Assembly-Part-3.pdf)
+
+# Bill of Material
+## Off the shelf parts
+| Check                                        | Description                          | # | Geert | Fre | cost | Comment                        | Link                                                                                                                            |
+|----------------------------------------------|--------------------------------------|---|-------|-----|------|--------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
+|                                              | Motor + ESC                          | 1 | 1 + 3 |     | 40€  | Test Pulsar B-20, B-40         | [aliexpress.com](https://nl.aliexpress.com/item/1005006742987156.html)                                                          |
+| <span style="color: green;">&#10004;</span>  | Motor Mount                          | 1 |       | 6   | 3€   |                                | [conrad.be](https://www.conrad.be/nl/p/reely-536014c-reserveonderdeel-motorhouder-1418556.html)                                 |
+| <span style="color: green;">&#10004;</span>  | Pinion                               | 1 | 5+5+7 |     | 5€   | 12T, 15T, 20T                  | [absima.be](https://www.absima.shop/pp/alu-pinion-32dp/module0-8-20T.html)                                                      |
+| <span style="color: green;">&#10004;</span>  | Battery                              | 1 | 4     | 6   | 40€  | 5200mAh, 2S, 80C               | [amazon.de](https://www.amazon.de/-/en/dp/B08X4GF9DK?psc=1&ref=ppx_yo2ov_dt_b_product_details)                                  |
+|                                              | Servo                                | 1 | 3     |     | 15€  |                                | [aliexpress.com](https://nl.aliexpress.com/item/1005007301836255.html)                                                          |
+|                                              | Receiver + Transmitter               | 1 | 3     |     | 25€  |                                | [conrad.be](https://www.conrad.be/nl/p/reely-gen4-rc-pistoolzender-2-4-ghz-aantal-kanalen-4-incl-ontvanger-2267650.html)        |
+| <span style="color: green;">&#10004;</span>  | Differential                         | 2 |       | 12  | 15€  |                                | [conrad.be](https://www.conrad.be/nl/p/reely-10003-reserveonderdeel-differentieel-712524.html)                                  |
+| <span style="color: green;">&#10004;</span>  | Differential - Drive shaft Connector | 2 |       | 12  | 5€   |                                | [conrad.be](https://www.conrad.be/nl/p/reely-536026-reserveonderdeel-conische-tandwielen-met-differentieeluitgang-1301672.html) |
+| <span style="color: green;">&#10004;</span>  | Dog bone                             | 4 | 8     | 12  | 15€  | needs thread lock!             | [amazon.de](https://www.amazon.de/-/en/dp/B08FMJXFCH?psc=1&ref=ppx_yo2ov_dt_b_product_details)                                  |
+| <span style="color: green;">&#10004;</span>  | Bearing - 10X15X4                    | 8 |       | 40  | 5€   |                                | [aliexpress.com](https://nl.aliexpress.com/item/32904604356.html)                                                               |
+| <span style="color: green;">&#10004;</span>  | Bearing - 5X10X4                     | 8 |       | 40  | 5€   |                                | [aliexpress.com](https://nl.aliexpress.com/item/32905646461.html)                                                               |
+| <span style="color: green;">&#10004;</span>  | Hot glue                             |   | Y     | Y   |      |                                |                                                                                                                                 |
+| <span style="color: green;">&#10004;</span>  | CA glue                              |   | Y     | Y   |      |                                |                                                                                                                                 |
+| <span style="color: green;">&#10004;</span>  | Duct tape                            |   | Y     | Y   |      |                                |                                                                                                                                 |
+| <span style="color: green;">&#10004;</span>  | Screws M3                            | 1 | 3     | 3   | 8€   | 440 pieces                     | [Amazon.de](https://www.amazon.de/-/nl/dp/B0B3MGZ7T2/ref=pd_day0fbt_thbs_d_sccl_2/257-0877788-9470555)                          |
+| <span style="color: green;">&#10004;</span>  | Screws M4 (100mm or 70mm)            | 4 |       | 20  | 2€   | Bottom wing - plate connection |                                                                                                                                 |
+|                                              | Wheel Fastener                       | 4 |       | 16  | 2€   |                                | [aliexpress.nl](https://nl.aliexpress.com/item/32947782005.html)                                                                |
+| <span style="color: green;">&#10004;</span>  | Threaded inserts                     | 8 | Y     | Y   |      | Diff cover                     | [ruthex.de](https://www.ruthex.de/en/collections/gewindeeinsatze/m3)                                                            |
+| <span style="color: green;">&#10004;</span>  | Rubber band                          | 4 | Y     | Y   |      | Shock                          |                                                                                                                                 |
 
 
 ## printed parts
