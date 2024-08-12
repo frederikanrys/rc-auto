@@ -83,5 +83,5 @@ Depending on the print settings, you will need around 2KG of Filament to print a
 | <span style="color: green;">&#10004;</span>   | [Cybertruck - rear](stl/Cybertruck-rear.stl)                   | PLA            | 1 |         | 5   |                                                              |
 | <span style="color: green;">&#10004;</span>   | [Cybertruck - rear - holder](stl/Cybertruck-rear-holder.stl)   | PLA            | 1 |         | 5   |                                                              |
 | <span style="color: green;">&#10004;</span>   | [Cybertruck - decal](stl/Cybertruck-decal.stl)                 | PLA            | 1 |         | 5   |                                                              |
-| <span style="color: green;">&#10004;</span>   | [Cybertruck - decal](stl/Cybertruck-logo.stl)                  | PLA            | 1 |         | 5   |                                                              |
+| <span style="color: green;">&#10004;</span>   | [Cybertruck - logo](stl/Cybertruck-logo.stl)                   | PLA            | 1 |         | 5   |                                                              |
 
