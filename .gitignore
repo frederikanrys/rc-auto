@@ -22,24 +22,4 @@ bin
 .npm
 .sass-cache
 *.css.map
-# brackets 
-*.brackets.json
-app/jcr_root/apps/aff-telenet-be/components/card-carousel/clientlibs/css/card-carousel.css
-app/jcr_root/apps/aff-telenet-be/components/card/clientlibs/css/card.css
-app/node/*
-# atomic library files
-atomic/node/*
-atomic/dist/*
-atomic/ui/00b_fundaments/02_icons/styles/*.scss
-# compiled js files from typescript
-**/angular-ts/**/*.js
-!**/angular-ts/**/module.js
-**/angular-ts/**/*.map
-**/angular-dist/js/dist.js
-# lock file
-yarn.lock
-# Added to higlight to remove unused ngjs files
-!app/**/ngjs/**/*.js
-!app/**/ngjs/**/*.js.map
-.java-version
 *.3mf
