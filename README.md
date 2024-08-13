@@ -44,7 +44,7 @@ Once you have the printed the parts on your printer and bought some off the shel
 
 
 ## Printed parts
-Depending on the print settings, you will need around 2KG of Filament to print all the parts. Instead of PLA, you can also use PETG, ABS.
+Depending on the print settings, you will need around 2KG of Filament to print all the parts. Instead of PLA, you can also use PETG or ABS.
 
 
 | Check                                          | Description                                                    | Material       | # | Geert | Fre | Comment                                                       |
