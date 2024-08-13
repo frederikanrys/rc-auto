@@ -1,22 +1,28 @@
-# Fri3d rc car
+# Fri3d RC Car
 This is a project to build a 3D printed remote controlled car. The car body is based on the [Cybertruck](https://www.tesla.com/cybertruck) from Tesla. The car is designed to be 3D printed and to be controlled by a remote control.
 
+As this is not a beginner project, it is recommended to have some experience with 3D printing and remote controlled cars.
+The project is an open-source project and can be used by anyone. We originally designed this project for [Fri3d Camp](https://fri3d.be/) to build 5 cars with children and play with them during the camp. 
 ![Cybertruck](images/Cybertruck-back.jpeg)
 
 
 # How to start?
 There is a combination of printed parts and off the shelf parts. Both off the shelf parts and printed parts are listed in the [Bill of Material](#Bill-of-Material). Off the shelf parts can be bought from various online stores such as the one proposed in the Link column.
 The printed parts are available in the [stl](stl) directory. The original design files are available in the [shapr](shapr) directory.
-The printed parts are designed to be printed with a 0.4mm nozzle and a layer height of 0.2mm on a printer with a maximum size of 25cm x 25cm x 25cm. The parts are designed to be printed with PLA, but some parts are designed to be printed with TPU (to absorb impact).
+The printed parts can be printed on a printer with a maximum size of 25cm x 25cm x 25cm. Most parts can be printed with PLA, but some parts are to be printed with TPU (to absorb impact).
 
-The car is designed with durability in mind. You will notice we use metal differentials and metal dog bones to transfer the power from the motor to the wheels. It makes the car more expensive, but it will last longer. 
-For more durability, some parts need to be printed in TPU (flexible filament). The bumper, the caster claws, and the top and bottom of the wings are designed to absorb the impact of a crash if printed in flexible filament.
+The car is designed with durability in mind. You will notice we do not print the parts that need to be very strong such as the differentials and dog bones. You should buy them online. It makes the car a bit more expensive to build, but it will last much longer. 
+For more durability, some parts are to be printed in TPU (flexible filament). i.e.: the bumper, the caster claws, and the top and bottom of the wings,... 
+That way, they can absorb the impact of a crash without breaking.
 
 # Assembly
-Once you have the printed the parts on your printer and bought some off the shelf parts, you can start to assemble the car as described in the following documents:
+Once you have the printed the parts on your printer and bought some of the parts online, you can start to assemble the car as described in the following documents:
 1. [Part 1 - Body](manual/part1-body.pdf) 
 2. [Part 2 - Front & Back](manual/part2-front-back.pdf)
 3. [Part 3 - Final](manual/part3-final.pdf)
+
+Happy assembling and Good Luck!
+
 
 # Bill of Material
 ## Off the shelf parts
