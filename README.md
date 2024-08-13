@@ -2,7 +2,8 @@
 This is a project to build a 3D printed remote controlled car. The car body is based on the [Cybertruck](https://www.tesla.com/cybertruck) from Tesla. The car is designed to be 3D printed and to be controlled by a remote control.
 
 As this is not a beginner project, it is recommended to have some experience with 3D printing and remote controlled cars.
-The project is an open-source project and can be used by anyone. We originally designed this project for [Fri3d Camp](https://fri3d.be/) to build 5 cars with children and play with them during the camp. 
+The project is an open-source project and can be used by anyone. We originally designed this project for [Fri3d Camp](https://fri3d.be/) to build 5 cars with children and play with them during the camp.
+
 ![Cybertruck](images/Cybertruck-back.jpeg)
 
 
