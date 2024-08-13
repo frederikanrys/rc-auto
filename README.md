@@ -14,7 +14,7 @@ For more durability, some parts need to be printed in TPU (flexible filament). T
 
 # Assembly
 Once you have the printed the parts on your printer and bought some off the shelf parts, you can start to assemble the car as described in the following documents:
-1. [Part 1 - Body](manual/part1-plate.pdf) 
+1. [Part 1 - Body](manual/part1-body.pdf) 
 2. [Part 2 - Front & Back](manual/part2-front-back.pdf)
 3. [Part 3 - Final](manual/part3-final.pdf)
 
