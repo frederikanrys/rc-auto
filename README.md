@@ -1,28 +1,32 @@
 # Fri3d RC Car
 
-> **Project Under Construction:** We are currently developing a new version (v2) of the Fri3d RC Car featuring a redesigned drivetrain with more off-the-shelf components, compatible with Traxxas Slash 4x4 parts. This will improve durability and make replacement parts easier to source.
->
-> **Looking for the original version?** The complete documentation for the original Fri3d RC Car (v1) is available in the [archive folder](archive/README.md).
 
 This is a project to build a 3D printed remote controlled car. The car body is based on the [Cybertruck](https://www.tesla.com/cybertruck) from Tesla. The car is designed to be 3D printed and to be controlled by a remote control.
 
-As this is not a beginner project, it is recommended to have some experience with 3D printing and remote controlled cars.
-The project is an open-source project and can be used by anyone. We originally designed this project for [Fri3d Camp](https://fri3d.be/) to build 5 cars with children and play with them during the camp.
-
 ![Cybertruck](images/Cybertruck-back.jpeg)
 
-## What's New in v2
+## Design Philosophy
 
-The new version focuses on using more off-the-shelf drivetrain components compatible with **Traxxas Slash 4x4** parts:
+The car uses off-the-shelf drivetrain components compatible with **Traxxas Slash 4x4** parts:
 
-- **Differentials** - Metal differentials with bearings (no more 3D printed gears)
+- **Differentials** - Metal differentials with bearings
 - **Driveshafts** - CVD steel driveshafts and metal center driveshaft
 - **Slipper Clutch** - Complete metal slipper clutch assembly
 - **Drive Hubs** - Steel drive hub sets
 
-This makes the car more durable and easier to repair with widely available RC car parts.
+This makes the car durable and easy to repair with widely available RC car parts.
 
-## Parts List (v2)
+## Parts List
+
+### Motor & Electronics
+
+| Item                   | Description         | Link                                                                                                                                              | Price | Qty |
+| ---------------------- | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ----- | --- |
+| Motor + ESC            | Pulsar B-20 or B-40 | [AliExpress](https://nl.aliexpress.com/item/1005006742987156.html)                                                                                | ~€30  | 1   |
+| Pinion                 | 12T, 15T, or 20T    | [Absima](https://www.absima.shop/pp/alu-pinion-32dp/module0-8-20T.htm?shop=absima_en&SessionId=&a=article&ProdNr=2310348&t=19114&c=19132&p=19132) | ~€5   | 1   |
+| Battery                | 5200mAh, 2S, 80C    | [Amazon](https://www.amazon.de/-/en/dp/B08X4GF9DK)                                                                                                | ~€30  | 1   |
+| Servo                  |                     | [AliExpress](https://nl.aliexpress.com/item/1005007301836255.html)                                                                                | ~€10  | 1   |
+| Receiver + Transmitter |                     |                                                                                                                                                   |       | 1   |
 
 ### Drivetrain (Differentials, Driveshafts & Slipper Clutch)
 
@@ -54,12 +58,46 @@ This makes the car more durable and easier to repair with widely available RC ca
 | Lock Nuts M5        | 304/316 Stainless Steel Flange Nylon Lock Nuts M5 Serrated (20pcs) | [AliExpress](https://www.aliexpress.com/item/1005009771309255.html) | ~€2   | 1   |
 | Dowel Pins M2       | GB119 Cylindrical Dowel Pins M2 304 Stainless Steel (50pcs, 10mm)  | [AliExpress](https://www.aliexpress.com/item/1005007023343232.html) | ~€2   | 1   |
 | Heat Insert Nuts M3 | Brass Heat Insert Nuts M3xL5xOD4.5 for 3D Printing (50pcs)         | [AliExpress](https://www.aliexpress.com/item/1005006472702418.html) | ~€2   | 1   |
+| Screws M3        | M3 Hex Socket Screws Set (440pcs)                                   | [Amazon](https://www.amazon.de/-/nl/dp/B0B3MGZ7T2)                  | ~€10  | 1   |
+| Body Shell Clips | MJX Hyper Go R-type Body Shell Clips Pin (24pcs)                    | [AliExpress](https://www.aliexpress.com/item/1005009096269708.html) | ~€2   | 1   |
 
-### Body & Accessories
 
-| Item             | Description                                      | Link                                                                | Price | Qty |
-| ---------------- | ------------------------------------------------ | ------------------------------------------------------------------- | ----- | --- |
-| Body Shell Clips | MJX Hyper Go R-type Body Shell Clips Pin (24pcs) | [AliExpress](https://www.aliexpress.com/item/1005009096269708.html) | ~€2   | 1   |
+## Printed Parts
 
-> **Note:** Prices are approximate and may vary. Total estimated cost: ~€77
+Depending on the print settings, you will need around 2KG of Filament to print all the parts. Instead of PLA, you can also use PETG or ABS.
+
+For TPU parts (except tires), we recommend [Extrudr Flex Hard](https://extrudr.com/en/at/products/flex-hard/) for better impact absorption.
+
+| Part | Material | Qty | Notes |
+|------|----------|-----|-------|
+| [Plate - mid - front](files/plate-mid-front.stl) | PLA | 1 | |
+| [Plate - mid - rear](files/plate-mid-rear.stl) | PLA | 1 | |
+| [Plate - diff - front - top](files/plate-diff-front-top.stl) | PLA | 1 | **100% infill** |
+| [Plate - diff - front - bottom](files/plate-diff-front-bottom.stl) | PLA | 1 | |
+| [Plate - diff - rear - top](files/plate-diff-rear-top.stl) | PLA | 1 | **100% infill** |
+| [Plate - diff - rear - bottom](files/plate-diff-rear-bottom.stl) | PLA | 1 | |
+| [Plate - battery - holder](files/plate-battery-holder.stl) | PLA | 1 | |
+| [Wing - bottom](files/wing-bottom.stl) | PLA/TPU-A98 | 4 | TPU for impact |
+| [Wing - top](files/wing-top.stl) | PLA/TPU-A98 | 4 | TPU for impact |
+| [Turn - caster](files/turn-caster.stl) | TPU-A98 | 4 | TPU for impact |
+| [Turn - front](files/turn-front.stl) | PLA | 2 | |
+| [Turn - rear](files/turn-rear.stl) | PLA | 2 | |
+| [Steering - left](files/steering-left.stl) | PLA | 1 | |
+| [Steering - right](files/steering-right.stl) | PLA | 1 | |
+| [Steering - connector](files/steering-connect.stl) | PLA/TPU-A95 | 1 | TPU = servo saver |
+| [Steering - rings](files/steering-rings.stl) | PLA | 2 | |
+| [Steering - top](files/steering-top.stl) | PLA | 1 | |
+| [Steering - rod - 67mm](files/steering-arm-67mm.stl) | PLA/TPU-A95 | 2 | TPU = servo saver |
+| [Bumper](files/bumper.stl) | TPU-A95 | 1 | TPU for impact |
+
+### Optional Printed Parts
+
+These parts can also be bought off the shelf.
+
+| Part | Material | Qty | Notes |
+|------|----------|-----|-------|
+| [Shock](files/shock.stl) | PLA | 8 | Slider and cap |
+| [Wheel - tire](files/wheel-tire.stl) | TPU-A95 | 4 | |
+| [Wheel - rim](files/wheel-rim.stl) | PLA | 4 | |
+| [Wheel - hex](files/wheel-hex.stl) | PLA | 4 | |
 
