@@ -91,8 +91,8 @@ For TPU parts (except tires), we recommend <a href="https://extrudr.com/en/at/pr
 
 | Part | Material | Qty | Notes |
 |------|----------|-----|-------|
-| <a href="files/vw-bus/bus-front.stl" target="_blank" rel="noopener noreferrer">Bus - front</a> | PLA/PETG | 1 | |
-| <a href="files/vw-bus/bus-rear.stl" target="_blank" rel="noopener noreferrer">Bus - rear</a> | PLA/PETG | 1 | |
+| <a href="files/vw-bus/bus-front.3mf" target="_blank" rel="noopener noreferrer">Bus - front</a> | PLA/PETG | 1 | |
+| <a href="files/vw-bus/bus-rear.3mf" target="_blank" rel="noopener noreferrer">Bus - rear</a> | PLA/PETG | 1 | |
 | <a href="files/vw-bus/roof-front.stl" target="_blank" rel="noopener noreferrer">Roof - front</a> | PLA/PETG | 1 | |
 | <a href="files/vw-bus/roof-rear.stl" target="_blank" rel="noopener noreferrer">Roof - rear</a> | PLA/PETG | 1 | |
 | <a href="files/vw-bus/nose.stl" target="_blank" rel="noopener noreferrer">Nose</a> | PLA/PETG | 1 | |
