@@ -77,8 +77,8 @@ For TPU parts (except tires), we recommend <a href="https://extrudr.com/en/at/pr
 | <a href="files/plate-battery-holder.stl" target="_blank" rel="noopener noreferrer">Plate - battery - holder</a> | PLA | 1 | |
 | <a href="files/wing-bottom.stl" target="_blank" rel="noopener noreferrer">Wing - bottom</a> | PLA/TPU-A98 | 4 | TPU for impact |
 | <a href="files/wing-top.stl" target="_blank" rel="noopener noreferrer">Wing - top</a> | PLA/TPU-A98 | 4 | TPU for impact |
-| <a href="files/turn-caster-front.stl" target="_blank" rel="noopener noreferrer">Turn - caster - front</a> | PLA | 2 | |
-| <a href="files/turn-caster-rear.stl" target="_blank" rel="noopener noreferrer">Turn - caster - rear</a> | PLA | 2 | |
+| <a href="files/turn-caster-front.stl" target="_blank" rel="noopener noreferrer">Turn - caster - front</a> | PLA | 2 | **100% infill** |
+| <a href="files/turn-caster-rear.stl" target="_blank" rel="noopener noreferrer">Turn - caster - rear</a> | PLA | 2 | **100% infill** |
 | <a href="files/turn-front.stl" target="_blank" rel="noopener noreferrer">Turn - front</a> | PLA | 2 | **100% infill** |
 | <a href="files/steering-left.stl" target="_blank" rel="noopener noreferrer">Steering - left</a> | PLA | 1 | |
 | <a href="files/steering-right.stl" target="_blank" rel="noopener noreferrer">Steering - right</a> | PLA | 1 | |
