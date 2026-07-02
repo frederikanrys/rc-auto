@@ -1,9 +1,9 @@
 # Fri3d RC Car
 
 
-This is a project to build a 3D printed remote controlled car. The car body is based on the [Cybertruck](https://www.tesla.com/cybertruck) from Tesla. The car is designed to be 3D printed and to be controlled by a remote control.
+This is a project to build a 3D printed remote controlled car. The car body is based on the classic Volkswagen Bus, reimagined as an off-road RC hot rod. The car is designed to be 3D printed and to be controlled by a remote control.
 
-![Cybertruck](images/Cybertruck-back.jpeg)
+![VW Bus](images/IMG_0494.PNG)
 
 ## Design Philosophy
 
@@ -70,25 +70,40 @@ For TPU parts (except tires), we recommend [Extrudr Flex Hard](https://extrudr.c
 
 | Part | Material | Qty | Notes |
 |------|----------|-----|-------|
-| [Plate - mid - front](files/plate-mid-front.stl) | PLA | 1 | |
-| [Plate - mid - rear](files/plate-mid-rear.stl) | PLA | 1 | |
+| [Plate - front - bottom](files/plate-front-bottom.stl) | PLA | 1 | |
+| [Plate - rear - bottom](files/plate-rear-bottom.stl) | PLA | 1 | |
 | [Plate - diff - front - top](files/plate-diff-front-top.stl) | PLA | 1 | **100% infill** |
-| [Plate - diff - front - bottom](files/plate-diff-front-bottom.stl) | PLA | 1 | |
 | [Plate - diff - rear - top](files/plate-diff-rear-top.stl) | PLA | 1 | **100% infill** |
-| [Plate - diff - rear - bottom](files/plate-diff-rear-bottom.stl) | PLA | 1 | |
 | [Plate - battery - holder](files/plate-battery-holder.stl) | PLA | 1 | |
 | [Wing - bottom](files/wing-bottom.stl) | PLA/TPU-A98 | 4 | TPU for impact |
 | [Wing - top](files/wing-top.stl) | PLA/TPU-A98 | 4 | TPU for impact |
-| [Turn - caster](files/turn-caster.stl) | TPU-A98 | 4 | TPU for impact |
+| [Turn - caster - front](files/turn-caster-front.stl) | PLA | 2 | |
+| [Turn - caster - rear](files/turn-caster-rear.stl) | PLA | 2 | |
 | [Turn - front](files/turn-front.stl) | PLA | 2 | |
-| [Turn - rear](files/turn-rear.stl) | PLA | 2 | |
 | [Steering - left](files/steering-left.stl) | PLA | 1 | |
 | [Steering - right](files/steering-right.stl) | PLA | 1 | |
 | [Steering - connector](files/steering-connect.stl) | PLA/TPU-A95 | 1 | TPU = servo saver |
 | [Steering - rings](files/steering-rings.stl) | PLA | 2 | |
 | [Steering - top](files/steering-top.stl) | PLA | 1 | |
-| [Steering - rod - 67mm](files/steering-arm-67mm.stl) | PLA/TPU-A95 | 2 | TPU = servo saver |
-| [Bumper](files/bumper.stl) | TPU-A95 | 1 | TPU for impact |
+| [Steering - rod - 75mm](files/steering-arm-75mm.stl) | PLA/TPU-A95 | 2 | TPU = servo saver |
+
+### VW Bus Body
+
+| Part | Material | Qty | Notes |
+|------|----------|-----|-------|
+| [Bus - front](files/vw-bus/bus-front.stl) | PLA/PETG | 1 | |
+| [Bus - rear](files/vw-bus/bus-rear.stl) | PLA/PETG | 1 | |
+| [Roof - front](files/vw-bus/roof-front.stl) | PLA/PETG | 1 | |
+| [Roof - rear](files/vw-bus/roof-rear.stl) | PLA/PETG | 1 | |
+| [Nose](files/vw-bus/nose.stl) | PLA/PETG | 1 | |
+| [Logo](files/vw-bus/logo.stl) | PLA/PETG | 1 | |
+| [Light](files/vw-bus/light.stl) | PLA/PETG | 1 | |
+| [Rail - nose - left](files/vw-bus/rail-nose-left.stl) | PLA/PETG | 1 | |
+| [Rail - nose - right](files/vw-bus/rail-nose-right%20.stl) | PLA/PETG | 1 | |
+| [Rail - front - left](files/vw-bus/rail-front-left.stl) | PLA/PETG | 1 | |
+| [Rail - front - right](files/vw-bus/rail-front-right.stl) | PLA/PETG | 1 | |
+| [Rail - rear - left](files/vw-bus/rail-rear-left%20.stl) | PLA/PETG | 1 | |
+| [Rail - rear - right](files/vw-bus/rail-rear-right.stl) | PLA/PETG | 1 | |
 
 ### Optional Printed Parts
 
